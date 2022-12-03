@@ -1,0 +1,236 @@
+body{
+    margin: 0;
+   
+}
+
+:root{
+    --rosa:#ffadcf;
+}
+*{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.margem{
+    margin: 0 auto;
+    width: 85%;
+}
+/*TEXTO LADO DIREITO DA IMAGEM NO TOPO*/
+.cabecalho__ajuste{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #c6299c;
+    width: 100%;
+}
+/*MENU*/
+.menu ul{
+    display: flex;
+    background-color: #c6299c;
+    justify-content: center;
+    list-style: none;
+    margin-right: 100px;
+    width: 100%;
+}
+.menu ul li{
+    display: inline;
+}
+ 
+.menu ul li a {
+    
+    padding: 15px 20px;
+    display: inline-block;
+    color: azure;
+    text-decoration: none;
+   
+}
+.menu ul li a:hover{
+color: coral;
+}
+.menu li  ul{
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+    }
+    .menu li:hover ul, .menu li.over ul {
+        display:block;
+    }
+    .menu li ul li{
+        border:1px solid #c0c0c0;
+        display:block;
+        width:150px;
+        }
+        /*PRIMEIRO CAROUSEL*/
+
+.lista{
+    display: flex;
+    margin: 0 auto;
+    padding: 8px 0;
+    width: 50%;
+}
+.legenda {
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+}
+.legenda h1{
+    color: white;
+    background-color: rgb(51, 175, 177);
+    max-width: 400px;
+    margin: auto;
+    padding-left: 15px;
+}
+ /*CAIXA AMARELA*/
+.atividades {
+    color:white;
+    background-color: #f0cb00;
+    padding: 8px 0;
+}
+
+
+
+.lista li{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10px;
+    width: 100%;
+}
+.frutas{
+    background-color: rgb(255, 173, 207);
+    color: white;
+}
+ /*Caixa alimentos e objetos*/
+
+.objetos{
+    background-color: rgb(255, 173, 207);
+}
+.objetos a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 9px;
+}
+.objetos a:hover{
+    color: coral;
+}
+/*CAIXA ANIMAIS */
+.animais{
+    background-color: rgb(255, 173, 207);
+    color: white;
+}
+.animais img{
+    max-width: 150px;
+    height: 150px;
+    margin-left: 8px;
+
+}
+
+.animais a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 9px;
+}
+.alimentos{
+    background: var(--rosa);
+   
+}
+.alimentos a{
+    color: #fff;
+    text-decoration: none;
+}
+.alimentos a:hover{
+    color: coral;
+}
+.animais a:hover{
+    color: coral;
+}
+/*RODAPÉ*/
+.rodape{
+    align-items: center;
+    background-color: rgb(55, 189, 191);
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    font-style: lighter;
+    font-weight: lighter;
+    font-size: 12px;
+    width: 100%;
+    
+}
+.rodape__texto{
+    font-size: 16px;
+    border-bottom: solid 2px;
+    padding: 8px 0;
+}
+.menurodape{
+    display: flex;
+    list-style: "|";
+    font-size: 14px;
+    
+}
+.menurodape__item{
+    margin: 0 8px;
+}
+.inforodape{
+   padding-left: 300px;
+}
+.linharodape{
+    padding-top: 250px;
+    padding-right: 300px;
+}
+.menurodape li:hover{
+    cursor:pointer;
+    color: rgb(246, 171, 125);
+}
+/* PAGINA SOBRE E PAIS*/
+.img_direita{
+    float: right;
+    margin-right: 100px;
+    margin-left: 20px;
+}
+.texto{
+    margin-left: 100px;
+}
+.texto h1{
+    color: #c6299c;
+    
+}
+
+.solucao{
+    color: #c6299c;
+}
+/* PAGINA INSCREVA-SE*/
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form input{
+outline: unset;
+padding: 20px;
+width: 300px;
+border: 1px solid  #c6299c;
+border-radius: 20px;
+margin-bottom: 20px;
+margin-right: 20px;
+}
+form input [type="submit"]{
+background-color: #c6299c;
+
+}
+
+
+
+
+
+
+
+
